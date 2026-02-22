@@ -1,0 +1,41 @@
+:root{
+  --bg:#fff8f2;
+  --panel:#fff3ea;
+  --accent:#ff8a1f; /* orange */
+  --accent-600:#e97700;
+  --text:#2b2b2b;
+  --muted:#6b6b6b;
+  --glass: rgba(255,255,255,0.6);
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial; background:var(--bg);color:var(--text)}
+#app{display:flex;flex-direction:column;min-height:100vh}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(90deg,var(--panel),var(--bg));border-bottom:1px solid rgba(0,0,0,0.05)}
+.topbar .title{font-weight:700;color:var(--accent-600)}
+.controls{display:flex;align-items:center;gap:8px}
+.controls button{background:var(--accent);border:none;color:#fff;padding:8px 12px;border-radius:8px;font-size:16px;cursor:pointer}
+.controls button:active{transform:translateY(1px)}
+#progress{min-width:92px;text-align:center;color:var(--muted);font-size:14px}
+.deck{flex:1;display:flex;align-items:center;justify-content:center;padding:20px}
+.slide{width:100%;max-width:980px;background:linear-gradient(180deg,white,var(--panel));border-radius:14px;box-shadow:0 6px 30px rgba(0,0,0,0.08);padding:28px;display:none;flex-direction:column;gap:14px}
+.slide.active{display:flex}
+.slide .heading{display:flex;align-items:baseline;justify-content:space-between}
+.slide h1{margin:0;font-size:28px;color:var(--accent-600)}
+.slide h2{margin:0;font-size:18px;color:var(--muted)}
+.bullets{margin-top:8px;display:flex;flex-direction:column;gap:8px}
+.bullets p{margin:0;padding-left:14px;position:relative}
+.bullets p:before{content:'';width:8px;height:8px;background:var(--accent);border-radius:2px;position:absolute;left:0;top:8px}
+.small{font-size:14px;color:var(--muted)}
+.speaker{padding:12px 16px;background:linear-gradient(90deg,var(--glass),transparent);border-top:1px solid rgba(0,0,0,0.03);border-radius:0 0 14px 14px;color:var(--accent-600);font-style:italic}
+.footer{padding:10px 16px;display:flex;flex-direction:column;gap:8px}
+.hint{font-size:13px;color:var(--muted)}
+@media (max-width:720px){
+  .slide{padding:18px;border-radius:12px}
+  .topbar{padding:10px}
+  .controls button{padding:8px}
+  .slide h1{font-size:20px}
+}
+.cover-sub{color:var(--muted);font-size:15px}
+.footer .speaker{cursor:pointer}
+.progressbar{height:6px;background:rgba(0,0,0,0.06);border-radius:999px;overflow:hidden}
+.progressbar > i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-600));width:0%}
