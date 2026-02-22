@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Studying 2 — Deck T-1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="title">Studying 2</div>
+      <div class="controls">
+        <button id="prevBtn" aria-label="Previous slide">◀</button>
+        <span id="progress" aria-live="polite"></span>
+        <button id="nextBtn" aria-label="Next slide">▶</button>
+      </div>
+    </header>
+
+    <main id="deck" class="deck" role="main" aria-live="polite">
+      <!-- slides injected here -->
+    </main>
+
+    <footer class="footer">
+      <div id="speaker" class="speaker"></div>
+      <div class="hint">Use ← → or swipe. Tap speaker line to toggle visibility.</div>
+    </footer>
+  </div>
+
+  <noscript>
+    <p>This deck requires JavaScript to render. Please enable JavaScript.</p>
+  </noscript>
+
+  <script src="app.js"></script>
+</body>
+</html>
