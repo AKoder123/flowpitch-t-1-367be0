@@ -1,0 +1,99 @@
+{
+  "deck_id": "T-1",
+  "title": "Studying 2",
+  "color": "Orange",
+  "slides": [
+    {
+      "id": 0,
+      "type": "cover",
+      "title": "Studying 2",
+      "subtitle": "Techniques that make study stick",
+      "bullets": [
+        "Practical, evidence-aligned study habits",
+        "Short talk with an actionable template"
+      ],
+      "speaker_line": "Welcome — this deck will show simple, proven swaps to make studying actually work."
+    },
+    {
+      "id": 1,
+      "type": "slide",
+      "title": "The Problem",
+      "bullets": [
+        "Most people \u201cstudy,\u201d but don\u2019t learn.",
+        "Re-reading notes feels productive, but it doesn\u2019t stick",
+        "Highlighting makes you familiar, not fluent",
+        "Real learning happens when your brain has to retrieve and apply"
+      ],
+      "speaker_line": "If studying feels easy, it\u2019s probably not working."
+    },
+    {
+      "id": 2,
+      "type": "slide",
+      "title": "The 3 Rules of Effective Study",
+      "bullets": [
+        "Active recall: force your brain to pull information out",
+        "Spaced repetition: revisit over time, not in one big block",
+        "Deliberate practice: target what you get wrong, not what you already know"
+      ],
+      "speaker_line": "These three are the difference between \u2018I saw it\u2019 and \u2018I can do it.\u2019"
+    },
+    {
+      "id": 3,
+      "type": "slide",
+      "title": "Active Recall (What to Do)",
+      "bullets": [
+        "Blurting: close notes \u2192 write everything you remember \u2192 check gaps",
+        "Practice questions: exam-style problems, not summaries",
+        "Teach-back: explain the concept like you\u2019re tutoring someone",
+        "Quick example: Instead of \u201cread the chapter,\u201d do: \u201cAnswer 10 questions, then mark and fix errors.\u201d"
+      ],
+      "speaker_line": "Swap passive review for retrieval practice: make the brain reach."
+    },
+    {
+      "id": 4,
+      "type": "slide",
+      "title": "Spacing + Interleaving (How to Schedule)",
+      "bullets": [
+        "Spacing: shorter sessions over multiple days beats cramming",
+        "Suggested rhythm: Day 0: learn → Day 1: recall → Day 3: recall again → Day 7: mixed practice",
+        "Interleaving: mix topics; don\u2019t do one topic for 3 hours straight",
+        "It feels harder in the moment \u2192 that difficulty predicts better long-term learning"
+      ],
+      "speaker_line": "Schedule difficulty: make retrieval slightly effortful and spaced."
+    },
+    {
+      "id": 5,
+      "type": "slide",
+      "title": "The Feedback Loop (How to Improve Fast)",
+      "bullets": [
+        "After every session ask: What did I get wrong? Why?",
+        "Look for repeating patterns of error; those define your plan",
+        "Rule: Your mistakes are your study plan",
+        "Spend ~70% of time on weak areas, 30% on review"
+      ],
+      "speaker_line": "Use errors as the roadmap: focus most time on what you actually get wrong."
+    },
+    {
+      "id": 6,
+      "type": "slide",
+      "title": "A Simple 45-Min Study Template",
+      "bullets": [
+        "0–5 min: set a clear, specific goal (what you will do)",
+        "5–25 min: active recall / practice questions",
+        "25–35 min: mark answers + update an error log",
+        "35–45 min: re-attempt wrong questions + schedule next review"
+      ],
+      "speaker_line": "No fancy motivation needed — just a system."
+    },
+    {
+      "id": 7,
+      "type": "closing",
+      "title": "Closing (20 seconds)",
+      "bullets": [
+        "Effective studying isn\u2019t about time. It\u2019s about technique.",
+        "If you do only one change: swap re-reading for retrieval (practice questions + recall), then space it out."
+      ],
+      "speaker_line": "Do the hard part: retrieve, correct, and repeat. That\u2019s how learning sticks."
+    }
+  ]
+}
